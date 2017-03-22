@@ -187,6 +187,10 @@ function keyPressed() {
 	}
 }
 
+function touchMoved() {
+	objects[0].rotateTowardsTarget(mouseX,mouseY);
+}
+
 /*
 class Vector {
 	constructor(x,y) {
